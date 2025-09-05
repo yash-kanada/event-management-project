@@ -70,13 +70,13 @@ npm run dev
 ## 📂 Project Structure
 ```csharp
 event-management-project/
-│
 ├── src/              # React frontend source code
 ├── back/             # Backend (provided by company)
 ├── public/           # Static assets
 ├── package.json
 ├── vite.config.js
 └── README.md
+
 ```
 
 ---
