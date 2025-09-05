@@ -1,5 +1,11 @@
 # Event Management Project 🎉
 
+![React](https://img.shields.io/badge/React-18.2-blue?logo=react)
+![Vite](https://img.shields.io/badge/Vite-frontend-brightgreen?logo=vite)
+![Node.js](https://img.shields.io/badge/Node.js-backend-green?logo=node.js)
+![MongoDB](https://img.shields.io/badge/MongoDB-database-success?logo=mongodb)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 A full-stack event management web application built during my internship.  
 The project allows users to browse events, book tickets, and manage their bookings with a React + Vite frontend and a Node.js backend.
 
