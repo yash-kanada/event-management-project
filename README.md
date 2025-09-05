@@ -1,13 +1,80 @@
-##for clone project, type steps in terminal of vs code 
+# Event Management Project 🎉
 
-step-1 : git clone "https://github.com/yash-kanada/event-management-project.git"
+A full-stack event management web application built during my internship.  
+The project allows users to browse events, book tickets, and manage their bookings with a React + Vite frontend and a Node.js backend.
 
-step-2 : npm i 
+---
 
-step-3 : cd .\back\
+## ✨ Features
+- User authentication (login & registration)
+- Browse and search events
+- Event details with images and descriptions
+- Book and manage events
+- Responsive design (mobile-friendly)
 
-step-4 : npm i
+---
 
-step-5 : cd ..
+## 🛠 Tech Stack
+**Frontend**
+- React + Vite
+- Bootstrap
+- Axios for API calls
 
-step-6 : npm run dev
+**Backend**
+- Node.js + Express (provided by company)
+- MongoDB (for database)
+
+---
+
+## 📦 Prerequisites
+Make sure you have installed:
+- [Node.js](https://nodejs.org/) (v18 or above recommended)
+- npm (comes with Node.js)
+
+---
+
+## 🚀 Getting Started
+
+Open terminal in **VS Code** and run:
+
+### Step 1: Clone the repository
+```bash
+git clone https://github.com/yash-kanada/event-management-project.git
+```
+### Step 2: Install frontend dependencies
+```bash
+cd event-management-project
+npm install
+```
+
+### Step 3: Install backend dependencies
+```bash
+cd back
+npm install
+cd ..
+```
+
+### Step 4: Start the development server
+```bash
+npm run dev
+```
+
+---
+
+## 📂 Project Structure
+```csharp
+event-management-project/
+│
+├── src/              # React frontend source code
+├── back/             # Backend (provided by company)
+├── public/           # Static assets
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## ⚠️ Note
+The backend (back/ folder) was provided by the company during internship.
+This repository mainly highlights the frontend implementation I developed.
