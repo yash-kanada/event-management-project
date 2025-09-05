@@ -1,0 +1,83 @@
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.hdrP {
+  cursor: pointer;
+  margin: 0px 0px;
+}
+
+.crsptr {
+  cursor: pointer;
+}
+
+.text-highlight {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.category-card:hover img {
+  transform: scale(1.05);
+  filter: brightness(0.85);
+}
+
+.category-card:hover .card-img-overlay h5 {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+
+/* App.css */
+
+.contact-section {
+  background-image: url('/public/images/birthday-event.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 15px 0px;
+}
+
+.contact-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.contact-form {
+  background-color: rgba(0, 0, 0, 0.85);
+  z-index: 2;
+}
+
+.login-page {
+  background-image: url('/images/bg/login-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  position: relative;
+}
+
+.account-page {
+  background: url('/images/bg/user-profile-bg.jpg') no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.blur-overlay::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(2px);
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 0;
+}
+
+.admin-bg{
+  background: url('/images/bg/admin-bg.jpg') no-repeat center center/cover;
+}
