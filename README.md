@@ -1,6 +1,6 @@
 ##for clone project, type steps in terminal of vs code 
 
-step:1 
+step:1 \n
 git clone "https://github.com/yash-kanada/event-management-project.git"
 
 step:2
